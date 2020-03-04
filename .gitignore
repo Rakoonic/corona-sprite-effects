@@ -1,0 +1,3 @@
+*.zip
+samples/**/effects-lib/
+.DS_Store
