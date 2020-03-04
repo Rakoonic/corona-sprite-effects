@@ -17,7 +17,7 @@ local displayObjectFunctions = {}
 
 -- Built-in effect set up
 local effectsDefinitions = {
-    defaults = require( "sprite-effects-lib.effects-defaults" ),
+    defaults = require( "sprite-effects-lib.default-effects" ),
 }
 
 --------------------------------------------------------------
@@ -342,6 +342,7 @@ end
 --------------------------------------------------------------
 
 --------------------------------------------------------------
+-- loadLibrary( newLibrary, replace )
 -- loadLibrary( newLibrary, libraryName, replace )
 function public.loadLibrary( newLibrary, libraryName, replace )
 
@@ -392,6 +393,7 @@ function public.freeLibrary( libraryName )
 end
 
 --------------------------------------------------------------
+-- loadEffect( effectObject, effectName )
 -- loadEffect( effectObject, effectName, libraryName )
 function public.loadEffect( effectObject, effectName, libraryName )
 
