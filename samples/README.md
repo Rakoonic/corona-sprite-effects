@@ -1,2 +1,3 @@
 # corona-sprite-effects
-Controllable / customisable effects for sprite interaction
+Copy the root effects-lib/ folder into each sample's root folder to enable it to run.
+

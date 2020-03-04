@@ -2,7 +2,7 @@
 -- SETUP -----------------------------------------------------
 
 local G = require( "libs.globals" )
-local effectsLibrary = require( "effects-lib.effectslibrary" )
+local effectsLibrary = require( "lib-sprite-effects.effects-library" )
 
 local composer = require( "composer" )
 local scene = composer.newScene()
