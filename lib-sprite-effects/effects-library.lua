@@ -17,7 +17,7 @@ local displayObjectFunctions = {}
 
 -- Built-in effect set up
 local effectsDefinitions = {
-    defaults = require( "lib-sprite-effects.effectsdefaults" ),
+    defaults = require( "lib-sprite-effects.effects-defaults" ),
 }
 
 --------------------------------------------------------------

@@ -2,6 +2,8 @@
 
 **CRAZY-CLOCK**
 
+Copy the root lib-sprite-effects/ folder into sample's root folder to enable it to run.
+
 * Rollover the small corona icons to trigger a random effect on them
 * The top two rows have the effects applied directly to the image, while the bottom two rows have the effects applied to a group containing images
 * Effects aren't cleared (this is what the cancelOnComplete parameter is for), they merely finish and go idle, so rolling over an icon for the second time will trigger the same effect
