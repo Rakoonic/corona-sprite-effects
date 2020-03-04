@@ -1,0 +1,3 @@
+*.zip
+samples/**/lib-sprite-effects/
+.DS_Store
