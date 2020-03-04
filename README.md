@@ -18,3 +18,5 @@
 - [] EG: an onBounce callback for the bounce effect, if possible
 
 - [] Maybe a copy effect thing to let you copy an effect and have it immediately running identically on another object? Could include over-writing properties.
+
+- [] Allow for variable time scales per group.
